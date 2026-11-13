@@ -85,12 +85,6 @@ I'm a Computer Science student in my 5th semester, building **Appointly** — an
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Wasif-2005-Ali&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=39D353&icon_color=26A641&text_color=C9D1D9" alt="Wasif's GitHub stats" width="480"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wasif-2005-Ali&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=39D353&text_color=C9D1D9" alt="Top languages" width="330"/>
-
-<br/>
-<br/>
-
 <img src="https://streak-stats.demolab.com?user=Wasif-2005-Ali&theme=github-dark&hide_border=true&background=0D1117&ring=39D353&fire=26A641&currStreakLabel=39D353&border_radius=10&dates=7EE787&sideLabels=C9D1D9&sideNums=39D353&currStreakNum=39D353" alt="GitHub Streak" width="500"/>
 
 <br/>
