@@ -3,6 +3,9 @@ name: Generate 3D contribution graph
 # Renders the 3D contribution graph (profile-night-green.svg) from this
 # account's contribution history and commits it to profile-3d-contrib/,
 # where the profile README loads it from. Runs daily and on demand.
+# NOTE: the action only generates the files in the workspace — the
+# Commit & Push step below is what saves them to the repo. Without it
+# the run reports success but nothing is committed.
 
 on:
   schedule:
@@ -21,9 +24,18 @@ jobs:
     runs-on: ubuntu-latest
     name: Generate profile-3d-contrib
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Wasif-2005-Ali
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git commit -m "generated"; then
+            git push
+          fi
