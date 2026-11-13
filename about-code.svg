@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+  </defs>
+
+  <!-- editor window -->
+  <rect x="4" y="4" width="992" height="332" rx="14" fill="url(#win)" stroke="#26A641" stroke-opacity="0.35" stroke-width="1.5"/>
+  <rect x="4" y="4" width="992" height="44" rx="14" fill="#161B22"/>
+  <rect x="4" y="30" width="992" height="18" fill="#161B22"/>
+  <line x1="4" y1="48" x2="996" y2="48" stroke="#26A641" stroke-opacity="0.25" stroke-width="1"/>
+  <circle cx="32" cy="26" r="7" fill="#FF5F57"/>
+  <circle cx="58" cy="26" r="7" fill="#FEBC2E"/>
+  <circle cx="84" cy="26" r="7" fill="#28C840"/>
+  <text x="500" y="31" font-family="JetBrains Mono, monospace" font-size="16" fill="#8B949E" text-anchor="middle">about_wasif.py</text>
+
+  <!-- code lines -->
+  <g font-family="JetBrains Mono, monospace" font-size="20">
+    <text x="36" y="88"><tspan fill="#FF7B72">class</tspan> <tspan fill="#FFA657">WasifAli</tspan><tspan fill="#C9D1D9">:</tspan></text>
+    <text x="36" y="124"><tspan fill="#8B949E">    name       = </tspan><tspan fill="#A5D6FF">"Wasif Ali"</tspan></text>
+    <text x="36" y="156"><tspan fill="#8B949E">    role       = </tspan><tspan fill="#A5D6FF">"Full-Stack Developer"</tspan></text>
+    <text x="36" y="188"><tspan fill="#8B949E">    degree     = </tspan><tspan fill="#A5D6FF">"BS Computer Science @ Air University, Kamra"</tspan></text>
+    <text x="36" y="220"><tspan fill="#8B949E">    cgpa       = </tspan><tspan fill="#79C0FF">3.47</tspan></text>
+    <text x="36" y="252"><tspan fill="#8B949E">    focus      = [</tspan><tspan fill="#A5D6FF">"Flutter"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"Django"</tspan><tspan fill="#8B949E">, </tspan><tspan fill="#A5D6FF">"Python"</tspan><tspan fill="#8B949E">]</tspan></text>
+    <text x="36" y="284"><tspan fill="#8B949E">    building   = </tspan><tspan fill="#A5D6FF">"Appointly"</tspan><tspan fill="#8B949E">  # appointments, chat &amp; calls</tspan></text>
+    <text x="36" y="316"><tspan fill="#8B949E">    open_to    = </tspan><tspan fill="#A5D6FF">"Internships, freelance &amp; collaborations"</tspan></text>
+  </g>
+</svg>
